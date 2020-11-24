@@ -1,0 +1,35 @@
+_id: req_ef0884a0094548b88260d6658f393372
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605709754102
+created: 1605709661655
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/{{widgetId}}/savePosition/
+name: Save widget position
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"x": {{xpos}},
+      "y": {{ypos}}
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_eb2c5bdb16194d23920920584b1c9ea8
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_06bda510ce23414f97cb55a10ce81e78
+authentication: {}
+metaSortKey: -1605359782665.9844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

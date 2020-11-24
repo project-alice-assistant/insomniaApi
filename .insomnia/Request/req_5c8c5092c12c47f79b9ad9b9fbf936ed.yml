@@ -1,0 +1,46 @@
+_id: req_5c8c5092c12c47f79b9ad9b9fbf936ed
+type: Request
+parentId: fld_f58b1a3dc8db48fe8f0dc2e545d90746
+modified: 1606062054922
+created: 1605358453877
+url: http://{{ProjectAliceIp}}/api/v1.0.1/telemetry/
+name: Get telemetry data
+description: Get telemetry data
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: from
+      disabled: false
+      value: "20201010"
+      id: pair_e639def918d14a638ecb2188f17535ae
+    - type: text
+      name: to
+      disabled: false
+      value: "20201020"
+      id: pair_e0ede686473348f9844ea837653a9f14
+    - type: text
+      name: siteId
+      disabled: false
+      value: uuid
+      id: pair_84ae557fc6904e37ac2fc43d880b10c4
+    - type: text
+      name: service
+      disabled: false
+      value: this
+      id: pair_fc852e93d6384920b018de4c1c6f7cde
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_acd4766631bb438494be0a34d839d841
+authentication: {}
+metaSortKey: -1605358453877
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

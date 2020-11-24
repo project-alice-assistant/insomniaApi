@@ -1,0 +1,33 @@
+_id: req_9ab1d85188954ff1b78a3c4e45235c8e
+type: Request
+parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
+modified: 1605358453998
+created: 1605358453998
+url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/say/
+name: Say
+description: Restarts Alice
+method: POST
+body:
+  params:
+    - type: text
+      name: text
+      disabled: false
+      value: I'm speaking through the API
+    - type: text
+      name: siteId
+      disabled: false
+      value: default
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453998
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

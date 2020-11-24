@@ -1,0 +1,23 @@
+_id: req_2759b47de5be44c18955fa9dea2e5f57
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1605358453924
+created: 1605358453924
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
+name: Delete skill
+description: Requires access token
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453924
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

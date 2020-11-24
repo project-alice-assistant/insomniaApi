@@ -1,0 +1,37 @@
+_id: req_ede4924ca5d4420b91a3f6226e87bb24
+type: Request
+parentId: fld_65b200ffcbd54e719390cd28462f3a9e
+modified: 1605358453857
+created: 1605358453857
+url: http://{{ProjectAliceIp}}/api/v1.0.1/users/
+name: Add user
+description: Requires access token
+method: PUT
+body:
+  params:
+    - type: text
+      name: username
+      disabled: false
+      value: psycho
+    - type: text
+      name: pin
+      disabled: false
+      value: "1111"
+    - type: text
+      name: access
+      disabled: false
+      value: worker
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453857
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

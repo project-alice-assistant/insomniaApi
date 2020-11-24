@@ -1,0 +1,26 @@
+_id: req_ec5191333d0643339ddde21bf37328cb
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605533090931
+created: 1605533080567
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/addPage/
+name: Add widget page
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_eb2c5bdb16194d23920920584b1c9ea8
+    disabled: false
+authentication: {}
+metaSortKey: -1605369083341.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

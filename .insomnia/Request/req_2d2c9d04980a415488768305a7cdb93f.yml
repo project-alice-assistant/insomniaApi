@@ -1,0 +1,25 @@
+_id: req_2d2c9d04980a415488768305a7cdb93f
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605444941624
+created: 1605444606351
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/
+name: Get widget instances
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_87cea4986d8348859a9911f19a49146e
+authentication: {}
+metaSortKey: -1605400971373.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

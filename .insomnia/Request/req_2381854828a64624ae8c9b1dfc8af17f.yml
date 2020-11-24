@@ -1,0 +1,33 @@
+_id: req_2381854828a64624ae8c9b1dfc8af17f
+type: Request
+parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
+modified: 1605358453983
+created: 1605358453983
+url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/ask/
+name: Ask
+description: Restarts Alice
+method: POST
+body:
+  params:
+    - type: text
+      name: text
+      disabled: false
+      value: What is your favorite color?
+    - type: text
+      name: siteId
+      disabled: false
+      value: default
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453983
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

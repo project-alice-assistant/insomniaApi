@@ -1,0 +1,24 @@
+_id: req_f2bc097a3cda49de8330c4a3dfc2ccb6
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606057655380
+created: 1605358453828
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/mqttConfig/
+name: Get Mqtt config
+description: Get Mqtt configs
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_9e4e5a9a5b58453dbcbc3ac5c8ed04aa
+authentication: {}
+metaSortKey: -1605358453828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

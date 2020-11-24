@@ -1,0 +1,24 @@
+_id: req_5a8e641940bb4375a4f63bcf6810b242
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606136440608
+created: 1605358453886
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/checkUpdate/
+name: Check update
+description: Requires access token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+authentication: {}
+metaSortKey: -1605358453886
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

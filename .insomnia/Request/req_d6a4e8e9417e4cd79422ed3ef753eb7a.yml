@@ -1,0 +1,23 @@
+_id: req_d6a4e8e9417e4cd79422ed3ef753eb7a
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1605358453913
+created: 1605358453913
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/toggleActiveState/
+name: Toggle active state
+description: Requires access token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_8d3f065e46254accaf1d9711acfa02ee
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606136422868
+created: 1605358453919
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
+name: Get skill
+description: Requires access token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_554d8c6a1649428aa90d1faa5cb2cbd8
+authentication: {}
+metaSortKey: -1605358453919
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

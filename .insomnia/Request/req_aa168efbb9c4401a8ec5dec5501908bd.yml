@@ -1,0 +1,29 @@
+_id: req_aa168efbb9c4401a8ec5dec5501908bd
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1605468091872
+created: 1605467879451
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/installSkills/
+name: Install skills
+description: Requires access token
+method: PUT
+body:
+  mimeType: application/json
+  text: '["test"]'
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_77f4d88b199d4c4391755b4d9171312c
+  - name: Content-Type
+    value: application/json
+    id: pair_eecc52114f434027ba7e2ab897d14542
+authentication: {}
+metaSortKey: -1605358453888.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

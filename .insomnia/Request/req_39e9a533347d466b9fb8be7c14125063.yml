@@ -1,0 +1,36 @@
+_id: req_39e9a533347d466b9fb8be7c14125063
+type: Request
+parentId: fld_65b200ffcbd54e719390cd28462f3a9e
+modified: 1606062071322
+created: 1605358453852
+url: http://{{ProjectAliceIp}}/api/v1.0.1/users/
+name: Delete user
+description: Requires access token
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: username
+      disabled: false
+      value: psycho
+      id: pair_dfa6631872324fcf91e565b55a143bfb
+    - type: text
+      name: keepWakeword
+      disabled: false
+      value: "false"
+      id: pair_cca51c192af1457385d51017a8107270
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_1b43d9af537f4bb694bd849b2e81b268
+authentication: {}
+metaSortKey: -1605358453852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

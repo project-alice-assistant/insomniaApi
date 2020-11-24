@@ -1,0 +1,23 @@
+_id: req_d71bbf567f2f487fbd421f40de556cf0
+type: Request
+parentId: fld_65b200ffcbd54e719390cd28462f3a9e
+modified: 1605358453868
+created: 1605358453868
+url: http://{{ProjectAliceIp}}/api/v1.0.1/users/
+name: List users
+description: Requires access token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

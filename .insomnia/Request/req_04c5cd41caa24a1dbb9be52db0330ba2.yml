@@ -1,0 +1,29 @@
+_id: req_04c5cd41caa24a1dbb9be52db0330ba2
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1605358453903
+created: 1605358453903
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/deactivate/
+name: Deactivate skill
+description: Requires access token
+method: POST
+body:
+  params:
+    - type: text
+      name: persistent
+      disabled: false
+      value: "false"
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+authentication: {}
+metaSortKey: -1605358453903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

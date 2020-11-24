@@ -1,0 +1,201 @@
+_id: req_ee456b5988bc4c998d061ab630131781
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606057634242
+created: 1605358453935
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/
+name: List skills
+description: >-
+  Requires access token
+
+
+  <!-- RESPONSE -->
+
+  {
+    "data": [
+      {
+        "active": true,
+        "aliceMinVersion": "1.0.0-b3",
+        "author": "ProjectAlice",
+        "category": "alice",
+        "databaseSchema": null,
+        "delayed": false,
+        "description": "ContextSensitive is the official context sensitive skill. It handles intents like 'Delete this', 'Change that', 'Please repeat",
+        "icon": "fas fa-brain",
+        "instructions": "",
+        "intents": {
+          "hermes/intent/DeleteThis": [
+            "please don't remember this",
+            "don't this remember this please",
+            "remove this please",
+            "please remove this",
+            "please don't remember this anymore",
+            "forget about this please",
+            "forget this please",
+            "delete this please",
+            "please delete this",
+            "please forget about this",
+            "please forget this",
+            "don't remember this anymore",
+            "don't remember this",
+            "delete this",
+            "forget about this"
+          ],
+          "hermes/intent/EditThis": [
+            "please edit this",
+            "change this please",
+            "can you edit this please",
+            "can we change this",
+            "please replace this",
+            "this needs to be changed",
+            "change that",
+            "please edit that",
+            "i need you to edit this"
+          ],
+          "hermes/intent/RepeatThis": [
+            "what did you say",
+            "what did you just say",
+            "sorry what did you say",
+            "i did not hear sorry",
+            "sorry what did you just say",
+            "could you say it again",
+            "sorry i did not hear it",
+            "i did not hear that",
+            "repeat this",
+            "please repeat that",
+            "repeat that please",
+            "could you repeat what you just said",
+            "can you please repeat what you just said",
+            "say it again please",
+            "please say it again",
+            "say it again",
+            "say again",
+            "repeat what you just said",
+            "please repeat what you just said",
+            "can you please repeat",
+            "could you please repeat",
+            "can you repeat please"
+          ]
+        },
+        "maintainers": [
+          "Psycho",
+          "maxbachmann"
+        ],
+        "name": "ContextSensitive",
+        "required": true,
+        "settings": {},
+        "updateAvailable": false,
+        "version": "1.0.29"
+      },
+      {
+        "active": true,
+        "aliceMinVersion": "1.0.0-b3",
+        "author": "Psychokiller1888",
+        "category": "assistance",
+        "databaseSchema": null,
+        "delayed": false,
+        "description": "Ask for the time, date, day and year",
+        "icon": "far fa-clock",
+        "instructions": "",
+        "intents": {
+          "hermes/intent/GetDate": [
+            "do you know what is today's date",
+            "do you know what the date is",
+            "do you know what's the date",
+            "please what's the date",
+            "please could you tell me the date",
+            "could you tell me the date please",
+            "tell me the date please",
+            "please tell me the date",
+            "can you tel lme the date",
+            "could you tell me the date",
+            "what is the date please",
+            "what date are we",
+            "please give me the date",
+            "what is the date",
+            "what is today's date",
+            "what's today's date",
+            "give me the date",
+            "what's the date"
+          ],
+          "hermes/intent/GetDay": [
+            "do you know what day it is",
+            "can you tell me what day it is please",
+            "can you tell me what day it is",
+            "can you please tell me what day it is",
+            "please could you tell me the day",
+            "could you tell me the day please",
+            "could you please tell me the day",
+            "could you tell me the day",
+            "please can you tell me the day",
+            "can you tell me the day please",
+            "can you tell me the day",
+            "what's the day please",
+            "please what's the day",
+            "what is today's day",
+            "what weekday are we",
+            "what is the day",
+            "what's the day",
+            "what day are we"
+          ],
+          "hermes/intent/GetTime": [
+            "please give me the time",
+            "please can i ask you the time",
+            "can i ask you the time please",
+            "can i ask you the time",
+            "could you tell me the time please",
+            "could you please tell me the time",
+            "please could you tell me the time",
+            "could you tell me the time",
+            "what time are we now",
+            "time please",
+            "what's the time please",
+            "please tell me the time",
+            "give me the time please",
+            "tell me what time it is",
+            "tell me the time",
+            "can you tell me what time it is",
+            "what's the time",
+            "what time is it"
+          ],
+          "hermes/intent/GetYear": [
+            "can you tell me the year",
+            "what's the current year",
+            "could you tell me in what year we are",
+            "please, what's the year",
+            "what year are we in",
+            "in what year are we currently in",
+            "give me the year"
+          ]
+        },
+        "maintainers": [
+          "maxbachmann",
+          "SkyHyperV"
+        ],
+        "name": "DateDayTimeYear",
+        "required": false,
+        "settings": {},
+        "updateAvailable": false,
+        "version": "1.0.31"
+      }
+    ]
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_1201436965d44ba29b42abcc0d6069b5
+    disabled: false
+authentication: {}
+metaSortKey: -1605358453935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

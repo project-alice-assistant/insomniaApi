@@ -1,0 +1,21 @@
+_id: req_7de57e248d104b6b94816064e181e825
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1605455474654
+created: 1605455104670
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/getStore/
+name: Get store data
+description: Requires access token
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605358453929.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_de8fa3b8c56d43e8aa1e73897b3604a0
+type: Request
+parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
+modified: 1606061992612
+created: 1605358453974
+url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/process/
+name: Process
+description: |-
+  Requires access token
+
+  Processes the query into an intent
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: query
+      disabled: false
+      value: what time is it
+      id: pair_4ae364c546f6495facfb01ed33dd6348
+    - type: text
+      name: siteId
+      disabled: false
+      value: uuid
+      id: pair_a93a69026096431faf5b2900411a7407
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_a4e47a5bdb6a4940925cd9e2d8648ed0
+authentication: {}
+metaSortKey: -1605358453974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

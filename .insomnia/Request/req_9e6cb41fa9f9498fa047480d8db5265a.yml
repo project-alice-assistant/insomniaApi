@@ -1,0 +1,21 @@
+_id: req_9e6cb41fa9f9498fa047480d8db5265a
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605618637925
+created: 1605443488749
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/templates/
+name: Get widget templates
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605443488749
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

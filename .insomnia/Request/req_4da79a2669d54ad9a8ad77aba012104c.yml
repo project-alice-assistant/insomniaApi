@@ -1,0 +1,21 @@
+_id: req_4da79a2669d54ad9a8ad77aba012104c
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605957967499
+created: 1605444725079
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/pages/
+name: Get widget pages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605379712685.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

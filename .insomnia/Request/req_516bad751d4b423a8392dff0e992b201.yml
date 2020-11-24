@@ -1,0 +1,36 @@
+_id: req_516bad751d4b423a8392dff0e992b201
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1605682346157
+created: 1605629150110
+url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/
+name: Add widget
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"skillName": "AliceSatellite",
+    	"widgetName": "Satellites",
+    	"pageId": 1
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_eb2c5bdb16194d23920920584b1c9ea8
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_3a6d1239de824050958e25e1a02dcd62
+authentication: {}
+metaSortKey: -1605366426005.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_f4219804eb774603999114617e4de5b6
+type: Request
+parentId: fld_5760cd6994fa4acf92e6dbcf685d55af
+modified: 1605358634614
+created: 1605358453957
+url: http://{{ProjectAliceIp}}/api/v1.0.1/login/
+name: Login
+description: Use this endpoint to login and get your api access token
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: username
+      disabled: false
+      value: admin
+      id: pair_bbea9feac5a143b0981abbee1261dd78
+    - type: text
+      name: pin
+      disabled: false
+      value: "1234"
+      id: pair_340dd9c8c47940a9a4334089154e08d7
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605358453957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

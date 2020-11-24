@@ -1,0 +1,26 @@
+_id: req_eb6507c9cc72491182426ce3f46b7df7
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606058029303
+created: 1605358453896
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/reload/
+name: Reload skill
+description: Requires access token
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_9958b31805484e8e9d4f48ad7ad589e9
+authentication: {}
+metaSortKey: -1605358453896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

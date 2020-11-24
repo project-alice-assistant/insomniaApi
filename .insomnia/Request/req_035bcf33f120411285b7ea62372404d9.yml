@@ -1,0 +1,39 @@
+_id: req_035bcf33f120411285b7ea62372404d9
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606219524656
+created: 1606219224805
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
+name: Update skill settings
+description: |-
+  Update the settings of a given skill
+
+  <-- RESPONSE -->
+  {
+    "success": true
+  }
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"disableMoodTraits": true
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_554d8c6a1649428aa90d1faa5cb2cbd8
+  - name: Content-Type
+    value: application/json
+    id: pair_f033971c9a574f3a9e1aa69579639f39
+authentication: {}
+metaSortKey: -1605358453916
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
