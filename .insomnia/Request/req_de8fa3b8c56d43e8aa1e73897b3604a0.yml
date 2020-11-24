@@ -1,14 +1,21 @@
 _id: req_de8fa3b8c56d43e8aa1e73897b3604a0
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1606061992612
+modified: 1606226193330
 created: 1605358453974
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/process/
 name: Process
 description: |-
-  Requires access token
-
   Processes the query into an intent
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "sessionId": "uuid"
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   mimeType: multipart/form-data

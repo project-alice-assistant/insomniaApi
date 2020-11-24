@@ -1,11 +1,145 @@
 _id: req_8d3f065e46254accaf1d9711acfa02ee
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1606136422868
+modified: 1606226456238
 created: 1605358453919
 url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
 name: Get skill
-description: Requires access token
+description: >-
+  Gets the given skill informations
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "data": {
+      "active": true,
+      "aliceMinVersion": "1.0.0-b4",
+      "author": "ProjectAlice",
+      "category": "alice",
+      "databaseSchema": null,
+      "delayed": false,
+      "description": "Red Queen is the official Project Alice personality skill",
+      "icon": "fas fa-biohazard",
+      "instructions": "",
+      "intents": {
+        "hermes/intent/ChangeUserState": [
+          "we're going bed",
+          "let's go to bed",
+          "time for going bed",
+          "we are cooking",
+          "i am putting makeup",
+          "i am making my makeup",
+          "i am going bed",
+          "i'm going bed",
+          "we are going bed",
+          "we are going to bed",
+          "it's tv time",
+          "prepare for tv please",
+          "please prepare for us leaving home",
+          "prepare for eating please",
+          "can you please prepare for us leaving home",
+          "prepare for going bed",
+          "let's eat",
+          "we just returned",
+          "we are watching tv"
+        ],
+        "hermes/intent/GoodMorning": [
+          "please wake up alice",
+          "wake up alice please",
+          "please wake up",
+          "wake up please",
+          "open your eyes it's morning",
+          "it's morning alice",
+          "good morning alice",
+          "it's time to wake up alice",
+          "alice wake up",
+          "wake up alice",
+          "wake up sleepy head",
+          "good start of the day",
+          "good morning time to wake up",
+          "time to wake up good morning",
+          "time to wake up",
+          "good morning"
+        ],
+        "hermes/intent/GoodNight": [
+          "alice it's time to sleep",
+          "have a lovely night alice",
+          "have a lovely night",
+          "i wish you a good night alice",
+          "wishing you a good night have nice dreams",
+          "wishing you a good night sleep well",
+          "wishing you a good night sleep tight",
+          "have a good night sleep tight",
+          "good night sleep tight",
+          "sleep well alice",
+          "i wish you a good night",
+          "time to sleep, good night",
+          "good night sleep well",
+          "nighty night",
+          "good night",
+          "have a good night"
+        ],
+        "hermes/intent/WhoAreYou": [
+          "could you tell me what you are",
+          "please tell me about you",
+          "can you tell me who you are",
+          "what the fuck are you",
+          "tell me what you are",
+          "tell me who you are",
+          "who the fuck are you",
+          "who the hell are you",
+          "what the hell are you",
+          "what are you",
+          "who are you"
+        ]
+      },
+      "maintainers": [
+        "Psycho",
+        "maxbachmann"
+      ],
+      "name": "RedQueen",
+      "required": true,
+      "settings": {
+        "disableMoodTraits": true,
+        "randomSpeaking": false,
+        "randomTalkMaxDelay": 1800,
+        "randomTalkMinDelay": 900
+      },
+      "settingsTemplate": {
+        "disableMoodTraits": {
+          "dataType": "boolean",
+          "defaultValue": false,
+          "description": "By disabling Alice's mood traits she won't feel tired, angry, frustrated etc etc",
+          "isSensitive": false
+        },
+        "randomSpeaking": {
+          "dataType": "boolean",
+          "defaultValue": true,
+          "description": "Allows Alice to randomly speak on herself",
+          "isSensitive": false
+        },
+        "randomTalkMaxDelay": {
+          "dataType": "integer",
+          "defaultValue": 1800,
+          "description": "The maximum time between each random talk. This can be increased by Alice's mood",
+          "isSensitive": false
+        },
+        "randomTalkMinDelay": {
+          "dataType": "integer",
+          "defaultValue": 900,
+          "description": "The minimum time between each random talk. This can be decreased by Alice's mood",
+          "isSensitive": false
+        }
+      },
+      "updateAvailable": false,
+      "version": "1.0.32"
+    }
+  }
+
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

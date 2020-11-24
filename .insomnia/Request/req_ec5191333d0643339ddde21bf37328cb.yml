@@ -1,11 +1,24 @@
 _id: req_ec5191333d0643339ddde21bf37328cb
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605533090931
+modified: 1606240556699
 created: 1605533080567
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/addPage/
 name: Add widget page
-description: ""
+description: |-
+  Adds a new UI page for widgets
+
+  <!-- RESPONSE -->
+
+  {
+    "newpage": {
+      "icon": "fas fa-biohazard",
+      "id": 2,
+      "position": 2
+    }
+  }
+
+  <!-- ENDRESPONSE -->
 method: PUT
 body: {}
 parameters: []

@@ -1,17 +1,27 @@
 _id: req_f37961a551b64b83a287d090ee235a9f
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1605358453842
+modified: 1606226796515
 created: 1605358453842
 url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/restart/
 name: Restart
-description: Restarts Alice
+description: |-
+  Restarts Alice
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
+    id: pair_af4f1e3b57e949838c78cbb14748e11b
 authentication: {}
 metaSortKey: -1605358453842
 isPrivate: false

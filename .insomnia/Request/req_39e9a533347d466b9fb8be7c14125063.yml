@@ -1,11 +1,20 @@
 _id: req_39e9a533347d466b9fb8be7c14125063
 type: Request
 parentId: fld_65b200ffcbd54e719390cd28462f3a9e
-modified: 1606062071322
+modified: 1606226879268
 created: 1605358453852
 url: http://{{ProjectAliceIp}}/api/v1.0.1/users/
 name: Delete user
-description: Requires access token
+description: |-
+  Deletes the given user
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: DELETE
 body:
   mimeType: multipart/form-data

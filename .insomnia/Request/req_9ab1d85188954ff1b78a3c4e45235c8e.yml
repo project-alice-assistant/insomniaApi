@@ -1,11 +1,20 @@
 _id: req_9ab1d85188954ff1b78a3c4e45235c8e
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1605358453998
+modified: 1606225975875
 created: 1605358453998
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/say/
 name: Say
-description: Restarts Alice
+description: |-
+  Makes Alice say the text in payload
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   params:
@@ -13,15 +22,18 @@ body:
       name: text
       disabled: false
       value: I'm speaking through the API
+      id: pair_1927b196543f42d1a30cac6db235d777
     - type: text
       name: siteId
       disabled: false
       value: default
+      id: pair_0ecca5bd63274ec3a69e563cf5b728d1
   mimeType: multipart/form-data
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
+    id: pair_3855fa833944429abb87b5cf16f8ceee
 authentication: {}
 metaSortKey: -1605358453998
 isPrivate: false

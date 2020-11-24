@@ -1,11 +1,49 @@
 _id: req_2d2c9d04980a415488768305a7cdb93f
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605444941624
+modified: 1606240461515
 created: 1605444606351
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/
 name: Get widget instances
-description: ""
+description: >-
+  Gets all widgets instances that are in use on the interface
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "widgets": {
+      "1": {
+        "css": ".date{width:100%;height:100%;font-size:1.75em;text-align:center;font-family:Monaco,sans-serif;display:flex;flex:1;align-items:center;justify-content:center}",
+        "html": "<widget><div class=date id=DateDayTimeYear_date></div></widget>",
+        "icon": "far fa-calendar-alt",
+        "id": 1,
+        "js": "function date_update(){let today=new Date();let d=String(today.getDate()).padStart(2,'0');let m=String(today.getMonth()+1).padStart(2,'0');let y=String(today.getFullYear());$('#DateDayTimeYear_date').html(d+'.'+m+'.'+y);}\ndate_update();setInterval(date_update,10000)",
+        "name": "Date",
+        "page": 1,
+        "params": {
+          "background": "#636363",
+          "background-opacity": 1,
+          "borders": true,
+          "color": "#d1d1d1",
+          "font-size": 1,
+          "rgba": "rgba(99, 99, 99, 1)",
+          "rotation": 0,
+          "size": "200x100",
+          "title": true,
+          "x": 170,
+          "y": 110,
+          "z": 1
+        },
+        "settings": {},
+        "skill": "DateDayTimeYear"
+      }
+    }
+  }
+
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

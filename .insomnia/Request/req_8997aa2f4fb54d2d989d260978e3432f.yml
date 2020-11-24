@@ -1,11 +1,20 @@
 _id: req_8997aa2f4fb54d2d989d260978e3432f
 type: Request
 parentId: fld_5760cd6994fa4acf92e6dbcf685d55af
-modified: 1606057950144
+modified: 1606227181432
 created: 1605358453949
 url: http://{{ProjectAliceIp}}/api/v1.0.1/login/checkToken/
 name: Check token validity
-description: Check if the given token is valid
+description: |-
+  Check if the given token is valid
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   mimeType: multipart/form-data

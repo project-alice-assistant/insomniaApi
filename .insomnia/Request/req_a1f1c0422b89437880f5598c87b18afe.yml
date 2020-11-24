@@ -1,11 +1,20 @@
 _id: req_a1f1c0422b89437880f5598c87b18afe
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605806322435
+modified: 1606240826679
 created: 1605806310263
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/{{widgetId}}/
 name: Remove widget
-description: ""
+description: |-
+  Removes the given widget instance
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: DELETE
 body: {}
 parameters: []

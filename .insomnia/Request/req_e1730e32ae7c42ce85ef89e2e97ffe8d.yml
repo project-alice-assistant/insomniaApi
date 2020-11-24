@@ -1,11 +1,31 @@
 _id: req_e1730e32ae7c42ce85ef89e2e97ffe8d
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605538048416
+modified: 1606240769601
 created: 1605538016247
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/pages/{{PageId}}/
 name: Remove widget page
-description: ""
+description: |-
+  Removes the given page
+
+  <!-- RESPONSE -->
+
+  {
+    "pages": {
+      "1": {
+        "icon": "fas fa-biohazard",
+        "id": 1,
+        "position": 0
+      },
+      "2": {
+        "icon": "fas fa-user",
+        "id": 2,
+        "position": 1
+      }
+    }
+  }
+
+  <!-- ENDRESPONSE -->
 method: DELETE
 body: {}
 parameters: []

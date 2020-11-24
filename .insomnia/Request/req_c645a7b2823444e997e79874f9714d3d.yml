@@ -1,11 +1,20 @@
 _id: req_c645a7b2823444e997e79874f9714d3d
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605538085234
+modified: 1606240867404
 created: 1605538082180
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/pages/{{PageId}}/
 name: Update widget page icon
-description: ""
+description: |-
+  Changes the widget page's icon
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: PATCH
 body: {}
 parameters: []

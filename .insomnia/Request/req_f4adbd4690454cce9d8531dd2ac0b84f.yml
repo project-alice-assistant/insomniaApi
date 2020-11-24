@@ -1,17 +1,27 @@
 _id: req_f4adbd4690454cce9d8531dd2ac0b84f
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1605358453891
+modified: 1606226604657
 created: 1605358453891
 url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
 name: Install skill
-description: Requires access token
+description: |-
+  Installs the given skill
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: PUT
 body: {}
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
+    id: pair_a36e7410fe0b44549639b0c1be7fb307
 authentication: {}
 metaSortKey: -1605358453891
 isPrivate: false

@@ -1,11 +1,20 @@
 _id: req_ef0884a0094548b88260d6658f393372
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605709754102
+modified: 1606240897239
 created: 1605709661655
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/{{widgetId}}/savePosition/
 name: Save widget position
-description: ""
+description: |-
+  Saves the given widget's new position on the UI page
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: PATCH
 body:
   mimeType: application/json

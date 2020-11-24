@@ -1,11 +1,22 @@
 _id: req_f2bc097a3cda49de8330c4a3dfc2ccb6
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1606057655380
+modified: 1606226857668
 created: 1605358453828
 url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/mqttConfig/
 name: Get Mqtt config
-description: Get Mqtt configs
+description: |-
+  Get Mqtt configs
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "host": "mqtt_host"
+    "port": "mqtt_port"
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

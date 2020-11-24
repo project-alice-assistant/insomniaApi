@@ -1,18 +1,54 @@
 _id: req_516bad751d4b423a8392dff0e992b201
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605682346157
+modified: 1606240669189
 created: 1605629150110
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/
 name: Add widget
-description: ""
+description: >-
+  Adds the given widget to the given page
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "widget": {
+      "css": ".clock{width:100%;height:100%;font-size:1.75em;text-align:center;font-family:Monaco,sans-serif;display:flex;flex:1;align-items:center;justify-content:center}",
+      "html": "<widget><div class=clock id=DateDayTimeYear_clock></div></widget>",
+      "icon": "fas fa-clock",
+      "id": 4,
+      "js": "function clock_update(){let today=new Date();let h=String(today.getHours()).padStart(2,'0');let m=String(today.getMinutes()).padStart(2,'0');let s=today.getSeconds();if(s===0||s%2===0){$('#DateDayTimeYear_clock').html(h+':'+m);}else{$('#DateDayTimeYear_clock').html(h+' '+m);}}\nclock_update();setInterval(clock_update,500);",
+      "name": "Clock",
+      "page": 1,
+      "params": {
+        "background": "#636363",
+        "background-opacity": 1,
+        "borders": true,
+        "color": "#d1d1d1",
+        "font-size": 1,
+        "rgba": "rgba(99, 99, 99, 1)",
+        "rotation": 0,
+        "size": "100x100",
+        "title": true,
+        "x": 0,
+        "y": 0,
+        "z": 4
+      },
+      "settings": {},
+      "skill": "DateDayTimeYear"
+    }
+  }
+
+
+  <!-- ENDRESPONSE -->
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"skillName": "AliceSatellite",
-    	"widgetName": "Satellites",
+    	"skillName": "DateDayTimeYear",
+    	"widgetName": "Clock",
     	"pageId": 1
     }
 parameters: []

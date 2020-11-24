@@ -1,17 +1,19 @@
 _id: req_035bcf33f120411285b7ea62372404d9
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1606219524656
+modified: 1606225737033
 created: 1606219224805
 url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
 name: Update skill settings
 description: |-
   Update the settings of a given skill
 
-  <-- RESPONSE -->
+  <!-- RESPONSE -->
+
   {
     "success": true
   }
+
   <!-- ENDRESPONSE -->
 method: PATCH
 body:

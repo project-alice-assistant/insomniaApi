@@ -1,11 +1,28 @@
 _id: req_410480a5cac3423a9a6868dfc0c35a60
 type: Request
 parentId: fld_65b200ffcbd54e719390cd28462f3a9e
-modified: 1606136467621
+modified: 1606227013706
 created: 1605358453863
 url: http://{{ProjectAliceIp}}/api/v1.0.1/users/1/
 name: Get user
-description: Requires access token
+description: |-
+  Gets the given user
+
+  <!-- RESPONSE -->
+
+  {
+    'id'         : 1,
+    'name'       : "Psycho",
+    'accessLevel': "admin",
+    'state'      : "sleeping",
+    'lang'       : "en-US",
+    'tts'        : "amazon",
+    'ttsLanguage': "en-US",
+    'ttsType'    : "female",
+    'ttsVoice'   : "Joanna"
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

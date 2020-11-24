@@ -1,11 +1,20 @@
 _id: req_f4219804eb774603999114617e4de5b6
 type: Request
 parentId: fld_5760cd6994fa4acf92e6dbcf685d55af
-modified: 1605358634614
+modified: 1606226251298
 created: 1605358453957
 url: http://{{ProjectAliceIp}}/api/v1.0.1/login/
 name: Login
-description: Use this endpoint to login and get your api access token
+description: |-
+  Use this endpoint to login and get your api access token
+
+  <!-- RESPONSE -->
+
+  {
+    "apiToken": "SECRET_TOKEN"
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   mimeType: multipart/form-data

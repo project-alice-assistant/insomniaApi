@@ -1,11 +1,36 @@
 _id: req_4da79a2669d54ad9a8ad77aba012104c
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605957967499
+modified: 1606240504745
 created: 1605444725079
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/pages/
 name: Get widget pages
-description: ""
+description: |-
+  Gets a lit of widget pages for the UI
+
+  <!-- RESPONSE -->
+
+  {
+    "pages": {
+      "1": {
+        "icon": "fas fa-biohazard",
+        "id": 1,
+        "position": 0
+      },
+      "2": {
+        "icon": "fas fa-user",
+        "id": 2,
+        "position": 1
+      },
+      "3": {
+        "icon": "fas fa-thermometer",
+        "id": 3,
+        "position": 2
+      }
+    }
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

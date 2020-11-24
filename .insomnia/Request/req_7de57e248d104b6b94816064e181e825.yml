@@ -1,11 +1,58 @@
 _id: req_7de57e248d104b6b94816064e181e825
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1605455474654
+modified: 1606226360612
 created: 1605455104670
 url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/getStore/
 name: Get store data
-description: Requires access token
+description: >-
+  Gets published skills from Alice's skill store
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "store": {
+      "AliceCore": {
+        "aliceMinVersion": "1.0.0-b4",
+        "author": "ProjectAlice",
+        "category": "alice",
+        "conditions": {
+          "lang": [
+            "en",
+            "fr",
+            "de",
+            "it"
+          ]
+        },
+        "desc": "AliceCore is the official skill that handles all core intents.",
+        "downloads": 393,
+        "icon": "fab fa-creative-commons-by",
+        "maintainers": [
+          "Psycho",
+          "Jierka",
+          "maxbachmann",
+          "philipp2310"
+        ],
+        "name": "AliceCore",
+        "pipRequirements": [],
+        "systemRequirements": [],
+        "version": "1.5.0",
+        "versionMapping": {
+          "1.0.0-a4": "1.0.35",
+          "1.0.0-a5": "1.0.51",
+          "1.0.0-a6": "1.0.62",
+          "1.0.0-b1": "1.2.8",
+          "1.0.0-b3": "1.4.2",
+          "1.0.0-b4": "1.5.0"
+        }
+      }
+    }
+  }
+
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

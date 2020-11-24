@@ -1,11 +1,20 @@
 _id: req_2381854828a64624ae8c9b1dfc8af17f
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1605358453983
+modified: 1606226170342
 created: 1605358453983
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/ask/
 name: Ask
-description: Restarts Alice
+description: |-
+  Initiates a new session by asking the user the text in the payload
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   params:
@@ -13,15 +22,18 @@ body:
       name: text
       disabled: false
       value: What is your favorite color?
+      id: pair_913edd1441fe4cc69c0e482599ef3130
     - type: text
       name: siteId
       disabled: false
       value: default
+      id: pair_0434274ef6724064a5a9f7420b61bbb5
   mimeType: multipart/form-data
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
+    id: pair_a6db30441200451c8e8f0b7a1de51eb0
 authentication: {}
 metaSortKey: -1605358453983
 isPrivate: false

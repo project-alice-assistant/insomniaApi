@@ -1,11 +1,20 @@
 _id: req_953ba745f84d45978ff908685ee8394f
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1605709748804
+modified: 1606240916769
 created: 1605709718602
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/{{widgetId}}/saveSize/
 name: Save widget size
-description: ""
+description: |-
+  Saves the given widget's new sizes on the UI page
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
 method: PATCH
 body:
   mimeType: application/json

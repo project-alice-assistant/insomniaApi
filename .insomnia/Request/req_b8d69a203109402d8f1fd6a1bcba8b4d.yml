@@ -1,11 +1,21 @@
 _id: req_b8d69a203109402d8f1fd6a1bcba8b4d
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1605358453991
+modified: 1606225995947
 created: 1605358453991
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/continue/
 name: Continue dialog
-description: Restarts Alice
+description: |-
+  Continues a dialog, reviving the session if needed
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "sessionId": "uuid"
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   params:
@@ -13,15 +23,18 @@ body:
       name: query
       disabled: false
       value: I'm speaking through the API
+      id: pair_7b30eb59ec614b9b8629d4892193f1a5
     - type: text
       name: siteId
       disabled: false
       value: default
+      id: pair_1ea061f2b4af43e3859d5f01b8a75d31
   mimeType: multipart/form-data
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
+    id: pair_90ebcdc8fea443e6a5f3bf16e8e81f6b
 authentication: {}
 metaSortKey: -1605358453991
 isPrivate: false
