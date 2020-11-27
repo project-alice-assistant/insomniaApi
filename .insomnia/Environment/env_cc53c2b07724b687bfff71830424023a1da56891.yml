@@ -1,7 +1,7 @@
 _id: env_cc53c2b07724b687bfff71830424023a1da56891
 type: Environment
 parentId: wrk_56a02a233e8a4a96b82090d8cd0ee2d1
-modified: 1606135997075
+modified: 1606307164643
 created: 1605357759969
 name: Base Environment
 data:
@@ -14,6 +14,7 @@ data:
   ypos: 0
   width: 50
   height: 50
+  lang: en
 dataPropertyOrder:
   "&":
     - ProjectAliceIp
@@ -25,6 +26,7 @@ dataPropertyOrder:
     - ypos
     - width
     - height
+    - lang
 color: null
 isPrivate: false
 metaSortKey: 1605357759969

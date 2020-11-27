@@ -1,0 +1,44 @@
+_id: req_a392e194f73c4bb7894018eee26330af
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606456669459
+created: 1606456585915
+url: http://127.0.0.1/api/v1.0.1/utils/config/
+name: Send system cmd
+description: |-
+  Sends a linux command to execute
+  - If authenticated, using sudo
+  - If not authenticated, without sudo
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: cmd
+      value: cd ~
+      description: ""
+      id: pair_1adb2ac2f3054425a155beca3bfdbaeb
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_65dbfdd92b9a4f06a36366cd7007fb90
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8b98ad2f77d443c4919ac3884ea15a77
+authentication: {}
+metaSortKey: -1605358453831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

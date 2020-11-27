@@ -1,0 +1,49 @@
+_id: req_0f47c752c37b4b12baa36cfd8e524097
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606307130646
+created: 1606306978425
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/i18n/
+name: Get I18N
+description: |-
+  Gets all the interface strings
+
+  <!-- RESPONSE -->
+
+  {
+    "data": {
+      "de": {},
+      "en": {
+        "nav": {
+          "admin": "admin",
+          "alicewatch": "alicewatch",
+          "devmode": "devmode",
+          "login": "login",
+          "logout": "logout",
+          "myhome": "my home",
+          "scenarions": "scenarios",
+          "skills": "skills",
+          "syslog": "syslog",
+          "widgets": "widgets"
+        }
+      },
+      "fr": {},
+      "it": {},
+      "pl": {}
+    }
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605358453840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
