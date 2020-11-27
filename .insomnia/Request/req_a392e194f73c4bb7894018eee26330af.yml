@@ -1,9 +1,9 @@
 _id: req_a392e194f73c4bb7894018eee26330af
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1606456669459
+modified: 1606456806983
 created: 1606456585915
-url: http://127.0.0.1/api/v1.0.1/utils/config/
+url: http://127.0.0.1/api/v1.0.1/utils/sysCmd/
 name: Send system cmd
 description: |-
   Sends a linux command to execute
