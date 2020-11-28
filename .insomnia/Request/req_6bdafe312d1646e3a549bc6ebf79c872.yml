@@ -1,7 +1,7 @@
 _id: req_6bdafe312d1646e3a549bc6ebf79c872
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1606555762556
+modified: 1606559740528
 created: 1605358453834
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/utils/config/
 name: Get configs
@@ -30,6 +30,30 @@ description: |-
       "activeCountryCode": "US",
       "activeLanguage": "en",
       "adminPinCode": 1234
+    },
+    "templates": {
+      "activeCountryCode": {
+        "category": "system",
+        "dataType": "string",
+        "defaultValue": "US",
+        "description": "Project Alice active country code",
+        "isSensitive": false
+      },
+      "activeLanguage": {
+        "category": "system",
+        "dataType": "list",
+        "defaultValue": "en",
+        "description": "Project Alice active language",
+        "isSensitive": false,
+        "values": [
+          "en",
+          "fr",
+          "de",
+          "it",
+          "pt",
+          "pl"
+        ]
+      }
     }
   }
 

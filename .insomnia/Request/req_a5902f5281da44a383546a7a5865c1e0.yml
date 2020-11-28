@@ -1,0 +1,42 @@
+_id: req_a5902f5281da44a383546a7a5865c1e0
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606566514521
+created: 1606566359312
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/config/
+name: Update settings
+description: |-
+  Update alice's settings
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"displaySystemUsage": true,
+    	"delegateNluTraining": false
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_554d8c6a1649428aa90d1faa5cb2cbd8
+  - name: Content-Type
+    value: application/json
+    id: pair_f033971c9a574f3a9e1aa69579639f39
+authentication: {}
+metaSortKey: -1605358453832.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
