@@ -1,0 +1,47 @@
+_id: req_387fc21d26e44099b1396fcb08151427
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1606763561561
+created: 1606763484631
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/uploadSkill/
+name: Upload to Github
+description: |-
+  Uploads a skill to Github
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "url": "Github skill url"
+  }
+
+  <!-- ENDRESPONSE -->
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: skillName
+      value: "{{ TargetSkill }}"
+      description: ""
+      id: pair_afe585612fde45a3b729c2a4d84942b0
+    - name: skillDesc
+      value: A description for Github
+      description: ""
+      id: pair_5fc0b0b4c1bd48258470f4ea45fb4b8f
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_a36e7410fe0b44549639b0c1be7fb307
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_d5d963fee60449e8a65dfe348a3a4e04
+authentication: {}
+metaSortKey: -1605358453889.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

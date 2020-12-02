@@ -1,0 +1,33 @@
+_id: req_52bf13d597234a4b9535b0afa51a7260
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606670800800
+created: 1606670757827
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/tuneWakeword/
+name: Tune wakeword
+description: |-
+  Starts the tune wakeword procedure
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_af4f1e3b57e949838c78cbb14748e11b
+authentication: {}
+metaSortKey: -1605358453840.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

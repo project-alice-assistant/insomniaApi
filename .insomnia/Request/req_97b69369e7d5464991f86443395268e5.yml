@@ -1,0 +1,33 @@
+_id: req_97b69369e7d5464991f86443395268e5
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606672635886
+created: 1606656339110
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/update/
+name: Update Alice
+description: |-
+  Checks and installs Alice updates
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_309686358b844463b6896ecf77398a5b
+authentication: {}
+metaSortKey: -1605358453836
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

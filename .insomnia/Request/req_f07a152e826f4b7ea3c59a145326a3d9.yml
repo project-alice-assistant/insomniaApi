@@ -1,0 +1,33 @@
+_id: req_f07a152e826f4b7ea3c59a145326a3d9
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1606670794884
+created: 1606670784972
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/addWakeword/
+name: Add wakeword
+description: |-
+  Starts the add wakeword procedure
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_af4f1e3b57e949838c78cbb14748e11b
+authentication: {}
+metaSortKey: -1605358453840.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
