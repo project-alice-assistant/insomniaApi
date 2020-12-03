@@ -1,7 +1,7 @@
 _id: req_75aeebf2d758493eba21d198f9864c94
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1607011394179
+modified: 1607019023938
 created: 1607010197238
 url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/
 name: Add location
@@ -18,11 +18,13 @@ description: |-
 method: PUT
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	name: {{newLocationName}},
-      x: 100,
-      y: 100
+    	"name": "inside",
+    	"parentLocation": 0,
+      "x": 100,
+      "y": 100,
+    	"z": 0
     }
 parameters: []
 headers:
