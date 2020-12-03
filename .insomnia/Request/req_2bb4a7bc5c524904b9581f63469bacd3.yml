@@ -1,7 +1,7 @@
 _id: req_2bb4a7bc5c524904b9581f63469bacd3
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1606929545078
+modified: 1606929767420
 created: 1606929017351
 url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/createSkill/
 name: Create new skill
@@ -32,7 +32,7 @@ body:
       description: A description of the skill
       id: pair_3cc59066aa78404b999998b2460406fa
     - name: skillCategory
-      value: caategory
+      value: category
       description: The category the skill belongs to
       id: pair_4b8918f646e1405e8ce66154b088f2e2
     - name: fr

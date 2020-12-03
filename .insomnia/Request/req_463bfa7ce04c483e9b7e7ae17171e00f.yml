@@ -1,0 +1,36 @@
+_id: req_463bfa7ce04c483e9b7e7ae17171e00f
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1607007042917
+created: 1607006933356
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/
+name: Get data
+description: |-
+  Get home data
+
+  <!-- RESPONSE -->
+
+  {
+    "locations": {},
+    "constructions": {},
+    "furnitures": {}
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+authentication: {}
+metaSortKey: -1607006933357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

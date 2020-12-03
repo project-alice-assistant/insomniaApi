@@ -1,0 +1,44 @@
+_id: req_75aeebf2d758493eba21d198f9864c94
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1607011394179
+created: 1607010197238
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/
+name: Add location
+description: |-
+  Add a new location
+
+  <!-- RESPONSE -->
+
+  {
+    "location": {}
+  }
+
+  <!-- ENDRESPONSE -->
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	name: {{newLocationName}},
+      x: 100,
+      y: 100
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+  - name: Content-Type
+    value: application/json
+    id: pair_3cce143cd85442b8ad6abaebbc562098
+authentication: {}
+metaSortKey: -1606507246119.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
