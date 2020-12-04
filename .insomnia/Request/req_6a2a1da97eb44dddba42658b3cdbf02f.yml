@@ -1,0 +1,34 @@
+_id: req_6a2a1da97eb44dddba42658b3cdbf02f
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1607106206939
+created: 1607106041185
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/floors/
+name: List floor textures
+description: |-
+  Lists all available floor textures
+
+  <!-- RESPONSE -->
+
+  {
+    data: [
+      "1",
+      "2",
+      "3"
+    ]
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606757089738.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

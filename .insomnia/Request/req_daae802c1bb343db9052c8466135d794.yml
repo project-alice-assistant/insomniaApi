@@ -1,0 +1,28 @@
+_id: req_daae802c1bb343db9052c8466135d794
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1607106189349
+created: 1607106136795
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/floors/1.png
+name: Get floor texture
+description: |-
+  Gets a floor texture. To be used as an image url
+
+  <!-- RESPONSE -->
+
+  Image
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606632167928.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
