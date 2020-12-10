@@ -1,0 +1,34 @@
+_id: req_12a046e353864cb293f97afad60b5521
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1607176197383
+created: 1607176121476
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/{{locationId}}/
+name: Delete location
+description: |-
+  Deletes the given location. Danger, as it also deletes any child location!
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+authentication: {}
+metaSortKey: -1606132480691.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
