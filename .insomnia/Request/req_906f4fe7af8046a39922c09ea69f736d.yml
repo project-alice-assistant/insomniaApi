@@ -1,0 +1,28 @@
+_id: req_906f4fe7af8046a39922c09ea69f736d
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1608715945002
+created: 1608715894700
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/742091f6-dc27-4600-aadc-0b3c88a71025/device.png
+name: Get device icon
+description: |-
+  Gets a device icon. To be used as an image url
+
+  <!-- RESPONSE -->
+
+  Image
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606569707024.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

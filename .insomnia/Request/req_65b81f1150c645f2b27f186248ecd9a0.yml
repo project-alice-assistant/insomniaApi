@@ -1,0 +1,29 @@
+_id: req_65b81f1150c645f2b27f186248ecd9a0
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1608034315636
+created: 1608034260966
+url: http://{{ ProjectAliceIp
+  }}/api/v1.0.1/widgets/resources/{{TargetSkill}}/{{widgetName}}.css
+name: Get widget CSS
+description: |-
+  Get the widget's javascript resource
+
+  <!-- RESPONSE -->
+
+  CSS file
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605385027357.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

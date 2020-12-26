@@ -1,0 +1,45 @@
+_id: req_0f7d261d56b94a65baaa246f4be4758a
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1609006600060
+created: 1609006311943
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/deviceTypes/
+name: Get device types
+description: |-
+  Get available device types
+
+  <!-- RESPONSE -->
+
+  {
+    "types": {
+      "alicecore": [
+        {
+          "allowLocationLinks": true,
+          "deviceTypeName": "AliceCore",
+          "heartbeatRate": 2,
+          "perLocationLimit": 1,
+          "skillName": "AliceCore",
+          "totalDeviceLimit": 1
+        }
+      ]
+    }
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+authentication: {}
+metaSortKey: -1606882011547.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
