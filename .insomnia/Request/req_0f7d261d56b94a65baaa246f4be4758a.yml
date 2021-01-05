@@ -1,7 +1,7 @@
 _id: req_0f7d261d56b94a65baaa246f4be4758a
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1609006600060
+modified: 1609092773647
 created: 1609006311943
 url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/deviceTypes/
 name: Get device types
@@ -14,12 +14,24 @@ description: |-
     "types": {
       "alicecore": [
         {
+          "abilities": "0b100010010",
           "allowLocationLinks": true,
           "deviceTypeName": "AliceCore",
           "heartbeatRate": 2,
           "perLocationLimit": 1,
           "skillName": "AliceCore",
           "totalDeviceLimit": 1
+        }
+      ],
+      "alicesatellite": [
+        {
+          "abilities": "0b100010000",
+          "allowLocationLinks": true,
+          "deviceTypeName": "AliceSatellite",
+          "heartbeatRate": 5,
+          "perLocationLimit": 1,
+          "skillName": "AliceSatellite",
+          "totalDeviceLimit": 0
         }
       ]
     }

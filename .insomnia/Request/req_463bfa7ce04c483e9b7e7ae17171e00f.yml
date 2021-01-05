@@ -1,7 +1,7 @@
 _id: req_463bfa7ce04c483e9b7e7ae17171e00f
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1607007042917
+modified: 1609182386483
 created: 1607006933356
 url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/
 name: Get data
@@ -13,7 +13,9 @@ description: |-
   {
     "locations": {},
     "constructions": {},
-    "furnitures": {}
+    "furnitures": {},
+    "devices": {},
+    "links": {}
   }
 
   <!-- ENDRESPONSE -->
