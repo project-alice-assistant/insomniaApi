@@ -1,21 +1,25 @@
-_id: req_12a046e353864cb293f97afad60b5521
+_id: req_365fb688145e4c67915e9921739df12c
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611340341098
-created: 1607176121476
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/{{locationId}}/
-name: Delete location
-description: |-
-  Deletes the given location. Danger, as it also deletes any child location!
+modified: 1611341265966
+created: 1611341154609
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/2/onClick/
+name: Device click
+description: >-
+  Triggers a click on the device icon. Is sent from the UI when user clicks on
+  the device
+
 
   <!-- RESPONSE -->
+
 
   {
     "success": true
   }
 
+
   <!-- ENDRESPONSE -->
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers:
@@ -24,7 +28,7 @@ headers:
     description: ""
     id: pair_7433f6d59ca04e39a7620d0e0670ca45
 authentication: {}
-metaSortKey: -1606757333726.159
+metaSortKey: -1606148095880.0469
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

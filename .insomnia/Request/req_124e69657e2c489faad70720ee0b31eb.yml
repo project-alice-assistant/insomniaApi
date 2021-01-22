@@ -1,45 +1,45 @@
-_id: req_75aeebf2d758493eba21d198f9864c94
+_id: req_124e69657e2c489faad70720ee0b31eb
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611338951967
-created: 1607010197238
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/
-name: Add location
+modified: 1611340204040
+created: 1611340004808
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/constructions/1/
+name: Update construction
 description: |-
-  Add a new location
+  Update a construction
 
   <!-- RESPONSE -->
 
   {
-    "location": {
-      "id": 5,
-      "name": "inside",
-      "parentLocation": 0,
+    "success": {
+      "id": 1,
+      "parentLocation": 1,
       "settings": {
         "b": "",
-        "h": 150,
+        "c": "",
+        "h": 351,
         "r": 0,
-        "t": "",
-        "w": 150,
-        "x": 50000,
-        "y": 50000,
-        "z": 4
-      },
-      "synonyms": []
+        "t": "construction-204",
+        "w": 17,
+        "x": 10,
+        "y": 10,
+        "z": 0
+      }
     }
   }
 
   <!-- ENDRESPONSE -->
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: |
     {
-    	"name": "inside",
-    	"parentLocation": 0,
-      "x": 50000,
-      "y": 50500,
-    	"z": 0
+    	"id": 1,
+    	"parentLocation": 1,
+    	"settings": {
+    		"x": 10,
+    		"y": 10
+    	}
     }
 parameters: []
 headers:
@@ -51,7 +51,7 @@ headers:
     value: application/json
     id: pair_3cce143cd85442b8ad6abaebbc562098
 authentication: {}
-metaSortKey: -1606788320190.5938
+metaSortKey: -1606758065689.8857
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

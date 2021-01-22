@@ -1,12 +1,12 @@
-_id: req_906f4fe7af8046a39922c09ea69f736d
+_id: req_7e97d06a651f4862aae0c91743076f3e
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611340653208
-created: 1608715894700
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/2/device.png
-name: Get device icon
+modified: 1611341403316
+created: 1611341373674
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/deviceTypes/AliceSatellite/AliceSatellite.png
+name: Get device type icon
 description: |-
-  Gets a device icon. To be used as an image url
+  Gets a device type icon. To be used as an image url
 
   <!-- RESPONSE -->
 
@@ -18,7 +18,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1606569707024.1875
+metaSortKey: -1606077827331.0234
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

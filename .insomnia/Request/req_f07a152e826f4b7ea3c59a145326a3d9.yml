@@ -1,7 +1,7 @@
 _id: req_f07a152e826f4b7ea3c59a145326a3d9
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1606670794884
+modified: 1611341577592
 created: 1606670784972
 url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/addWakeword/
 name: Add wakeword
@@ -23,7 +23,7 @@ headers:
     value: "{{AuthToken}}"
     id: pair_af4f1e3b57e949838c78cbb14748e11b
 authentication: {}
-metaSortKey: -1605358453840.25
+metaSortKey: -1605358453841.002
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

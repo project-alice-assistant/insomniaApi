@@ -1,19 +1,17 @@
-_id: req_f2bc097a3cda49de8330c4a3dfc2ccb6
+_id: req_2a02bb3300874970b94ef19ab8940415
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1611341555669
-created: 1605358453828
-url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/mqttConfig/
-name: Get Mqtt config
+modified: 1611341650564
+created: 1611341637917
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/train/
+name: Train assistant
 description: |-
-  Get Mqtt configs
+  Starts the Alice assistant training
 
   <!-- RESPONSE -->
 
   {
-    "success": true,
-    "host": "mqtt_host"
-    "port": "mqtt_port"
+    "success": true
   }
 
   <!-- ENDRESPONSE -->
@@ -23,9 +21,9 @@ parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
-    id: pair_9e4e5a9a5b58453dbcbc3ac5c8ed04aa
+    id: pair_af4f1e3b57e949838c78cbb14748e11b
 authentication: {}
-metaSortKey: -1605358453841.0312
+metaSortKey: -1605358453741
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,12 +1,12 @@
-_id: req_906f4fe7af8046a39922c09ea69f736d
+_id: req_135f0834d6f24feb8b3c4c61079e1732
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611340653208
-created: 1608715894700
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/2/device.png
-name: Get device icon
+modified: 1611340639965
+created: 1611340627283
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/constructions/1.png
+name: Get construction texture
 description: |-
-  Gets a device icon. To be used as an image url
+  Gets a construction texture. To be used as an image url
 
   <!-- RESPONSE -->
 
@@ -18,7 +18,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1606569707024.1875
+metaSortKey: -1606585322250.3594
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

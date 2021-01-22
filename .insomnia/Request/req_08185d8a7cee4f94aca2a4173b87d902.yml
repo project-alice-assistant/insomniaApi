@@ -1,0 +1,50 @@
+_id: req_08185d8a7cee4f94aca2a4173b87d902
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1611338592589
+created: 1611338489580
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/1
+name: Get location
+description: |-
+  Gets a locations data and synonyms
+
+  <!-- RESPONSE -->
+
+  {
+    "location": {
+      "id": 1,
+      "name": "office",
+      "parentLocation": 0,
+      "settings": {
+        "b": "",
+        "h": 351,
+        "r": 0,
+        "t": "floor-8",
+        "w": 100,
+        "x": 50000,
+        "y": 49826,
+        "z": 0
+      },
+      "synonyms": []
+    },
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_122071a3faf8482197729f3514ca6c26
+authentication: {}
+metaSortKey: -1606819550642.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

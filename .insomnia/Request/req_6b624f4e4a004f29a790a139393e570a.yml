@@ -1,7 +1,7 @@
 _id: req_6b624f4e4a004f29a790a139393e570a
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1606307418991
+modified: 1611341564995
 created: 1606307145334
 url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/i18n/{{ lang }}/
 name: Get I18N for lang
@@ -33,7 +33,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1605358453839
+metaSortKey: -1605358453841.0078
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

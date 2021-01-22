@@ -1,0 +1,83 @@
+_id: req_dcd31962663245fe9e5f853e194d7d49
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1611340831404
+created: 1611340680184
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/
+name: Add device
+description: |-
+  Add a new device. Returned is the device along with it's new link
+
+  <!-- RESPONSE -->
+
+  {
+    "device": {
+      "abilities": "0b100010000",
+      "allowHeartbeatOverride": false,
+      "connected": false,
+      "deviceConfigs": {
+        "displayName": "",
+        "heartbeatRate": 2,
+        "justADemo": "",
+        "removeMeOnce": ""
+      },
+      "deviceParams": {},
+      "id": 3,
+      "lastContact": 0,
+      "parentLocation": 1,
+      "settings": {
+        "h": 50,
+        "r": 0,
+        "w": 50,
+        "x": 150,
+        "y": 150,
+        "z": 2
+      },
+      "skillName": "AliceSatellite",
+      "typeName": "AliceSatellite",
+      "uid": "-1"
+    },
+    "link": {
+      "5": {
+        "configs": {},
+        "deviceId": 3,
+        "deviceUid": "-1",
+        "id": 5,
+        "targetLocation": 1
+      }
+    },
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"deviceType": "AliceSatellite",
+    	"skillName": "AliceSatellite",
+    	"parentLocation": 1,
+    	"settings": {
+    		"x": 150,
+    		"y": 150
+    	}
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+  - name: Content-Type
+    value: application/json
+    id: pair_3cce143cd85442b8ad6abaebbc562098
+authentication: {}
+metaSortKey: -1606569706974.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

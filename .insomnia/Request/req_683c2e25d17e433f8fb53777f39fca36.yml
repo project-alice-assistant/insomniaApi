@@ -1,0 +1,81 @@
+_id: req_683c2e25d17e433f8fb53777f39fca36
+type: Request
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1611340327326
+created: 1611340227286
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/1/
+name: Update device
+description: |-
+  Update a construction
+
+  <!-- RESPONSE -->
+
+  {
+    "device": {
+      "abilities": "0b100010010",
+      "allowHeartbeatOverride": false,
+      "connected": true,
+      "deviceConfigs": {
+        "displayName": "AliceCore",
+        "heartbeatRate": 2
+      },
+      "deviceParams": {},
+      "id": 1,
+      "lastContact": 0,
+      "parentLocation": 1,
+      "settings": {
+        "h": 50,
+        "r": 0,
+        "w": 50,
+        "x": 10,
+        "y": 10,
+        "z": 0
+      },
+      "skillName": "AliceCore",
+      "typeName": "AliceCore",
+      "uid": "58d30812-8c84-45d9-8983-c59c55955926"
+    },
+    "links": {
+      "1": {
+        "configs": {},
+        "deviceId": 1,
+        "deviceUid": "58d30812-8c84-45d9-8983-c59c55955926",
+        "id": 1,
+        "targetLocation": 1
+      }
+    },
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"parentLocation": 1,
+    	"settings": {
+    		"x": 10,
+    		"y": 10
+    	},
+    	"deviceConfgis": {},
+    	"linksconfig": []
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
+  - name: Content-Type
+    value: application/json
+    id: pair_3cce143cd85442b8ad6abaebbc562098
+authentication: {}
+metaSortKey: -1606757577714.0679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

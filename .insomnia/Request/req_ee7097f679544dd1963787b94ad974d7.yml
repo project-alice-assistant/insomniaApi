@@ -1,45 +1,43 @@
-_id: req_75aeebf2d758493eba21d198f9864c94
+_id: req_ee7097f679544dd1963787b94ad974d7
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611338951967
-created: 1607010197238
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/
-name: Add location
+modified: 1611340046994
+created: 1611339851330
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/furniture/1/
+name: Update furniture
 description: |-
-  Add a new location
+  Update a furniture
 
   <!-- RESPONSE -->
 
   {
-    "location": {
-      "id": 5,
-      "name": "inside",
-      "parentLocation": 0,
+    "success": {
+      "id": 1,
+      "parentLocation": 1,
       "settings": {
-        "b": "",
-        "h": 150,
+        "h": 50,
         "r": 0,
-        "t": "",
-        "w": 150,
-        "x": 50000,
-        "y": 50000,
-        "z": 4
-      },
-      "synonyms": []
+        "t": "deco-1.png",
+        "w": 50,
+        "x": 10,
+        "y": 10,
+        "z": 0
+      }
     }
   }
 
   <!-- ENDRESPONSE -->
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: |
     {
-    	"name": "inside",
-    	"parentLocation": 0,
-      "x": 50000,
-      "y": 50500,
-    	"z": 0
+    	"id": 1,
+    	"parentLocation": 1,
+    	"settings": {
+    		"x": 10,
+    		"y": 10
+    	}
     }
 parameters: []
 headers:
@@ -51,7 +49,7 @@ headers:
     value: application/json
     id: pair_3cce143cd85442b8ad6abaebbc562098
 authentication: {}
-metaSortKey: -1606788320190.5938
+metaSortKey: -1606759041641.5215
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

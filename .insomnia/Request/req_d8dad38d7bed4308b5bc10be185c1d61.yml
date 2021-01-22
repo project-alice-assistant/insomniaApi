@@ -1,12 +1,12 @@
-_id: req_cf5609b938154c91b85089da0a88fa63
+_id: req_d8dad38d7bed4308b5bc10be185c1d61
 type: Request
-parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1611341510301
-created: 1605358453838
-url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/reboot/
-name: Reboot
+parentId: fld_77a753690d504782bc0b0d8ef88748e3
+modified: 1611340440270
+created: 1611340428294
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/2/
+name: Delete device
 description: |-
-  Reboots the machine Alice is running on
+  Deletes the given device.
 
   <!-- RESPONSE -->
 
@@ -15,15 +15,16 @@ description: |-
   }
 
   <!-- ENDRESPONSE -->
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
-    id: pair_309686358b844463b6896ecf77398a5b
+    description: ""
+    id: pair_7433f6d59ca04e39a7620d0e0670ca45
 authentication: {}
-metaSortKey: -1605358453841.5
+metaSortKey: -1606757120236.7388
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

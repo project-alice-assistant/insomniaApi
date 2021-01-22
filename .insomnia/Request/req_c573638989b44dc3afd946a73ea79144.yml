@@ -1,12 +1,12 @@
-_id: req_12a046e353864cb293f97afad60b5521
+_id: req_c573638989b44dc3afd946a73ea79144
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611340341098
-created: 1607176121476
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/locations/{{locationId}}/
-name: Delete location
+modified: 1611341132077
+created: 1611340954748
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/deviceLinks/
+name: Delete device link
 description: |-
-  Deletes the given location. Danger, as it also deletes any child location!
+  Deletes a link from a device to a location
 
   <!-- RESPONSE -->
 
@@ -16,15 +16,24 @@ description: |-
 
   <!-- ENDRESPONSE -->
 method: DELETE
-body: {}
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"targetLocation": 2,
+    	"deviceId": 3
+    }
 parameters: []
 headers:
   - name: auth
     value: "{{AuthToken}}"
     description: ""
     id: pair_7433f6d59ca04e39a7620d0e0670ca45
+  - name: Content-Type
+    value: application/json
+    id: pair_2bcdc6da251a46949cb31eb49de94073
 authentication: {}
-metaSortKey: -1606757333726.159
+metaSortKey: -1606288632878.0938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

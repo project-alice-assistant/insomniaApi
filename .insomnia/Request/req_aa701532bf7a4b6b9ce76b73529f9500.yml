@@ -1,12 +1,12 @@
 _id: req_aa701532bf7a4b6b9ce76b73529f9500
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1606240955468
+modified: 1611341743050
 created: 1605890365241
 url: http://{{ ProjectAliceIp }}/api/v1.0.1/widgets/{{widgetId}}/
-name: Save widget params
+name: Save widget settings
 description: |-
-  Saves the given widget's parameters
+  Saves the given widget's settings
 
   <!-- RESPONSE -->
 

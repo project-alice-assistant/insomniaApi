@@ -1,16 +1,22 @@
-_id: req_906f4fe7af8046a39922c09ea69f736d
+_id: req_8434518ed1354f0f947f1ccaccbcadec
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1611340653208
-created: 1608715894700
-url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/2/device.png
-name: Get device icon
+modified: 1611340536662
+created: 1611340474021
+url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/furniture/tiles/
+name: List furniture textures
 description: |-
-  Gets a device icon. To be used as an image url
+  Lists all available furniture textures
 
   <!-- RESPONSE -->
 
-  Image
+  {
+    data: [
+      "deco-1",
+      "deco-2",
+      "deco-3"
+    ]
+  }
 
   <!-- ENDRESPONSE -->
 method: GET
@@ -18,7 +24,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1606569707024.1875
+metaSortKey: -1606694628833.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

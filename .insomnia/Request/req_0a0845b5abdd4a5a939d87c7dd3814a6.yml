@@ -1,7 +1,7 @@
 _id: req_0a0845b5abdd4a5a939d87c7dd3814a6
 type: Request
 parentId: fld_c54ea31100724509a365a009df139c5f
-modified: 1608034285995
+modified: 1611341689166
 created: 1608032407955
 url: http://{{ ProjectAliceIp
   }}/api/v1.0.1/widgets/resources/{{TargetSkill}}/{{widgetName}}.js
@@ -19,7 +19,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1605390342029.625
+metaSortKey: -1605443488761.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

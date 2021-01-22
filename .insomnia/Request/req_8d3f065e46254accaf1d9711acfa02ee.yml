@@ -1,9 +1,9 @@
 _id: req_8d3f065e46254accaf1d9711acfa02ee
 type: Request
 parentId: fld_ce75b23410184a3b914da86a8eb83060
-modified: 1606226456238
+modified: 1611162825887
 created: 1605358453919
-url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/Netatmo/
 name: Get skill
 description: >-
   Gets the given skill informations
