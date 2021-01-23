@@ -1,0 +1,50 @@
+_id: req_d4f1fd459c9f4d95ac11f90a4314a3b1
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1611422218116
+created: 1611422069297
+url: http://{{ ProjectAliceIp
+  }}/api/v1.0.1/widgets/{{widgetId}}/function/myWidgetFunctionToCall
+name: Widget API call
+description: >-
+  Whenever a widget needs data from Alice, it can call this endpoint. In this
+  very example, the function "myWidgetFunctionToCall" from the widget instance
+  {{widgetId}} will be called and the results returned
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "success": true,
+    "data": {}
+  }
+
+
+  <!-- ENDRESPONSE -->
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"whateverParameters": "to pass to the called function"
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    description: ""
+    id: pair_eb2c5bdb16194d23920920584b1c9ea8
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_06bda510ce23414f97cb55a10ce81e78
+authentication: {}
+metaSortKey: -1605358620081.498
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
