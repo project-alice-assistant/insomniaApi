@@ -1,0 +1,29 @@
+_id: req_64eeebb3b57c4f028774688acf50f0d6
+type: Request
+parentId: fld_c54ea31100724509a365a009df139c5f
+modified: 1611401481061
+created: 1611401435295
+url: http://{{ ProjectAliceIp
+  }}/api/v1.0.1/widgets/resources/img/{{TargetSkill}}/map.gif
+name: Get widget img resource
+description: |-
+  Get a widget image resource
+
+  <!-- RESPONSE -->
+
+  Image
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605443488753.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
