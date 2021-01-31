@@ -1,7 +1,7 @@
 _id: req_906f4fe7af8046a39922c09ea69f736d
 type: Request
 parentId: fld_77a753690d504782bc0b0d8ef88748e3
-modified: 1612095047957
+modified: 1612095086538
 created: 1608715894700
 url: http://{{ProjectAliceIp}}/api/v1.0.1/myHome/devices/1/randomness/device.png
 name: Get device icon
@@ -9,7 +9,7 @@ description: >-
   Gets a device icon. To be used as an image url
 
 
-  In the url, replace "randomness" with something effectively random, best would be a timestamp or a uuidv4. This serves as browser cahce buster
+  In the url, replace "randomness" with something effectively random, best would be a timestamp or a uuidv4. This serves as browser cache buster
 
 
   <!-- RESPONSE -->
