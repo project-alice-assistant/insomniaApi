@@ -1,0 +1,33 @@
+_id: req_ec9652d2f782492ab389bba3f6d41df6
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1612591306019
+created: 1612591226942
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/pahows/
+name: Get Paho mqtt
+description: >-
+  This is is by widgets on the UI that would need to connect to Mqtt. You can
+  use this instead of the online CDN for paho-mqtt. This is the Websocket
+  version
+
+
+  <!-- RESPONSE -->
+
+
+  File
+
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1605358453691
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
