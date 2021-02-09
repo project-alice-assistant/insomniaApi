@@ -1,7 +1,7 @@
 _id: req_ed7500e821a647e78bf9e8e22f6e2196
 type: Request
 parentId: fld_b9db0d06bce543088f56a30fe2c364ef
-modified: 1611341623725
+modified: 1612876781206
 created: 1611341598530
 url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/addUser/
 name: Add user
@@ -22,6 +22,10 @@ headers:
   - name: auth
     value: "{{AuthToken}}"
     id: pair_af4f1e3b57e949838c78cbb14748e11b
+  - name: uid
+    value: "{{interfaceUid}}"
+    description: ""
+    id: pair_c0a3d2b5edb74d80934d2966b6c907fc
 authentication: {}
 metaSortKey: -1605358453791
 isPrivate: false
