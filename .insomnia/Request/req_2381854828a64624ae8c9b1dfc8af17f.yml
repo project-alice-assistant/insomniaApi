@@ -1,7 +1,7 @@
 _id: req_2381854828a64624ae8c9b1dfc8af17f
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1611338343160
+modified: 1618148356778
 created: 1605358453983
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/ask/
 name: Ask
@@ -17,6 +17,7 @@ description: |-
   <!-- ENDRESPONSE -->
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: text
@@ -24,11 +25,10 @@ body:
       value: What is your favorite color?
       id: pair_913edd1441fe4cc69c0e482599ef3130
     - type: text
-      name: siteId
+      name: deviceUid
       disabled: false
       value: default
       id: pair_0434274ef6724064a5a9f7420b61bbb5
-  mimeType: multipart/form-data
 parameters: []
 headers:
   - name: auth

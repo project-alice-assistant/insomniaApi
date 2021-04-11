@@ -1,7 +1,7 @@
 _id: req_9ab1d85188954ff1b78a3c4e45235c8e
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1606225975875
+modified: 1618148359150
 created: 1605358453998
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/say/
 name: Say
@@ -17,6 +17,7 @@ description: |-
   <!-- ENDRESPONSE -->
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: text
@@ -24,11 +25,10 @@ body:
       value: I'm speaking through the API
       id: pair_1927b196543f42d1a30cac6db235d777
     - type: text
-      name: siteId
+      name: deviceUid
       disabled: false
       value: default
       id: pair_0ecca5bd63274ec3a69e563cf5b728d1
-  mimeType: multipart/form-data
 parameters: []
 headers:
   - name: auth

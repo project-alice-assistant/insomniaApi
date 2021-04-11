@@ -1,7 +1,7 @@
 _id: req_b8d69a203109402d8f1fd6a1bcba8b4d
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1607601483423
+modified: 1618148365226
 created: 1605358453991
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/continue/
 name: Continue dialog
@@ -26,7 +26,7 @@ body:
       value: I'm speaking through the API
       id: pair_7b30eb59ec614b9b8629d4892193f1a5
     - type: text
-      name: siteId
+      name: deviceUid
       disabled: false
       value: default
       id: pair_1ea061f2b4af43e3859d5f01b8a75d31

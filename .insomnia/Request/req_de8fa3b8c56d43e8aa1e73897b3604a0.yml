@@ -1,7 +1,7 @@
 _id: req_de8fa3b8c56d43e8aa1e73897b3604a0
 type: Request
 parentId: fld_0307185e3d334672ae4eb1eb6abe7d33
-modified: 1611338350674
+modified: 1618148437287
 created: 1605358453974
 url: http://{{ProjectAliceIp}}/api/v1.0.1/dialog/process/
 name: Process
@@ -26,10 +26,14 @@ body:
       value: what time is it
       id: pair_4ae364c546f6495facfb01ed33dd6348
     - type: text
-      name: siteId
+      name: deviceUid
       disabled: false
       value: uuid
       id: pair_a93a69026096431faf5b2900411a7407
+    - name: sessionId
+      value: sessionId
+      description: ""
+      id: pair_36bc42a746c14a4e8d680481a28d498d
 parameters: []
 headers:
   - name: auth
