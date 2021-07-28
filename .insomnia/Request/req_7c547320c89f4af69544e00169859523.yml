@@ -1,0 +1,39 @@
+_id: req_7c547320c89f4af69544e00169859523
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1627487959569
+created: 1627487845121
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/getConfigTemplate/
+name: Get config template
+description: |-
+  Gets the config template file
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "configTemplate": "text"
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET / POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+  - name: Content-Type
+    value: application/json
+    id: pair_4154841b39ef4abeae35d986e14598d8
+authentication: {}
+metaSortKey: -1605358453727.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

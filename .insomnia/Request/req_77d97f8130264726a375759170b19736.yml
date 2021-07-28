@@ -1,0 +1,42 @@
+_id: req_77d97f8130264726a375759170b19736
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1627487998994
+created: 1627487929910
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/setConfigTemplate/
+name: Set config template
+description: |-
+  Sets the config template file of the skill
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "configTemplate": text
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"configTemplate": "text"
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+  - name: Content-Type
+    value: application/json
+    id: pair_f1c606228bda4511b98cb6cf59641ab1
+authentication: {}
+metaSortKey: -1605358453677.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

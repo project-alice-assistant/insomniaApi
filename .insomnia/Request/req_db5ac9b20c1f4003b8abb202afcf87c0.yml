@@ -1,0 +1,43 @@
+_id: req_db5ac9b20c1f4003b8abb202afcf87c0
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1627488176300
+created: 1627488112878
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/setTalkFile/
+name: Set talk files
+description: |-
+  Sets the talk files of the skill
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "talkFile": text
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"talkFile": "text",
+    	"lang": "language code"
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+  - name: Content-Type
+    value: application/json
+    id: pair_f1c606228bda4511b98cb6cf59641ab1
+authentication: {}
+metaSortKey: -1605358453577.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

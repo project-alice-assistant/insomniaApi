@@ -1,0 +1,42 @@
+_id: req_073cdb31d2004ef5a42cde9fb93f673a
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1627487974036
+created: 1627487467290
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/getDialogTemplate/
+name: Get dialog template
+description: |-
+  Gets the dialogTemplate file for the given language
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "dialogTemplate": "text"
+  }
+
+  <!-- ENDRESPONSE -->
+method: GET / POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"lang": "language code"
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+  - name: Content-Type
+    value: application/json
+    id: pair_4154841b39ef4abeae35d986e14598d8
+authentication: {}
+metaSortKey: -1605358453827.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

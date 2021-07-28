@@ -1,0 +1,42 @@
+_id: req_310ab014369a4c70b3940539ff2f0652
+type: Request
+parentId: fld_ce75b23410184a3b914da86a8eb83060
+modified: 1627488303325
+created: 1627488248600
+url: http://{{ProjectAliceIp}}/api/v1.0.1/skills/{{TargetSkill}}/setInstallFile/
+name: Set install file
+description: |-
+  Sets the install file of the skill
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true,
+    "installFile": text
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"installFile": "text"
+    }
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_50f2e470e3cc42ec97818395bb51dafd
+  - name: Content-Type
+    value: application/json
+    id: pair_f1c606228bda4511b98cb6cf59641ab1
+authentication: {}
+metaSortKey: -1605358453477.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
