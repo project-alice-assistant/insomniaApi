@@ -1,0 +1,41 @@
+_id: req_84631260d87744c0ab3557e292583fdf
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1634205716887
+created: 1634205575524
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/notifications/
+name: Get notifications
+description: >-
+  Triggers a publish of all unread notifications targeted at the given device
+  uid
+
+
+  <!-- RESPONSE -->
+
+
+  {
+    "success": true
+  }
+
+
+  <!-- ENDRESPONSE -->
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_af4f1e3b57e949838c78cbb14748e11b
+  - id: pair_14e9bfff9e8542cc8c184944500ed8f6
+    name: uid
+    value: deviceUid
+    description: ""
+authentication: {}
+metaSortKey: -1605358453666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

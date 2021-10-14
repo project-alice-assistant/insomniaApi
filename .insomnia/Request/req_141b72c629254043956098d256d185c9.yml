@@ -1,0 +1,33 @@
+_id: req_141b72c629254043956098d256d185c9
+type: Request
+parentId: fld_b9db0d06bce543088f56a30fe2c364ef
+modified: 1634205681890
+created: 1634205622058
+url: http://{{ProjectAliceIp}}/api/v1.0.1/utils/notifications/1/
+name: Mark notification
+description: |-
+  Marks a notification as read
+
+  <!-- RESPONSE -->
+
+  {
+    "success": true
+  }
+
+  <!-- ENDRESPONSE -->
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - name: auth
+    value: "{{AuthToken}}"
+    id: pair_554d8c6a1649428aa90d1faa5cb2cbd8
+authentication: {}
+metaSortKey: -1605358453641
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
